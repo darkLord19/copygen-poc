@@ -1,0 +1,25 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/darkLord19/copygen-poc
+BenchmarkObjectiveConversionCopyegen-10    	269380676	         4.371 ns/op
+BenchmarkObjectiveConversionCopyegen-10    	275690949	         4.386 ns/op
+BenchmarkObjectiveConversionCopyegen-10    	275496718	         4.368 ns/op
+BenchmarkObjectiveConversionCopyegen-10    	275394478	         4.357 ns/op
+BenchmarkObjectiveConversionCopyegen-10    	275344004	         4.354 ns/op
+BenchmarkKeyresultConversionCopygen-10     	275397190	         4.355 ns/op
+BenchmarkKeyresultConversionCopygen-10     	275494846	         4.355 ns/op
+BenchmarkKeyresultConversionCopygen-10     	275701032	         4.357 ns/op
+BenchmarkKeyresultConversionCopygen-10     	275531614	         4.356 ns/op
+BenchmarkKeyresultConversionCopygen-10     	275534013	         4.356 ns/op
+BenchmarkObjectiveConversionCopier-10      	  358623	      3233 ns/op
+BenchmarkObjectiveConversionCopier-10      	  369774	      3218 ns/op
+BenchmarkObjectiveConversionCopier-10      	  372637	      3222 ns/op
+BenchmarkObjectiveConversionCopier-10      	  374048	      3229 ns/op
+BenchmarkObjectiveConversionCopier-10      	  371455	      3229 ns/op
+BenchmarkKeyresultConversionCopier-10      	  404455	      2984 ns/op
+BenchmarkKeyresultConversionCopier-10      	  403764	      3106 ns/op
+BenchmarkKeyresultConversionCopier-10      	  353091	      3150 ns/op
+BenchmarkKeyresultConversionCopier-10      	  393780	      3080 ns/op
+BenchmarkKeyresultConversionCopier-10      	  399193	      3049 ns/op
+PASS
+ok  	github.com/darkLord19/copygen-poc	28.828s
